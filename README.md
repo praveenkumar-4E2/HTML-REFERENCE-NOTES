@@ -158,6 +158,96 @@
 
 <br></br>
 
+```html
+
+<html>
+  ├── <head>
+  │   ├── <title>
+  │   ├── <meta>
+  │   ├── <link>
+  │   └── <style>
+  └── <body>
+      ├── <header>
+      ├── <nav>
+      ├── <main>
+      ├── <footer>
+      ├── <section>
+      ├── <article>
+      ├── <aside>
+      ├── <blockquote>
+      ├── <pre>
+      ├── <code>
+      ├── <samp>
+      ├── <var>
+      ├── <small>
+      ├── <strong>
+      ├── <em>
+      ├── <i>
+      ├── <b>
+      ├── <u>
+      ├── <mark>
+      ├── <s>
+      ├── <del>
+      └── <ins>
+      ├── <ul>
+      │   └── <li>
+      ├── <ol>
+      │   └── <li>
+      ├── <dl>
+      │   ├── <dt>
+      │   └── <dd>
+      ├── <a>
+      ├── <menu>
+      ├── <form>
+      │   ├── <input>
+      │   ├── <textarea>
+      │   ├── <button>
+      │   ├── <select>
+      │   │   └── <option>
+      │   ├── <fieldset>
+      │   ├── <label>
+      │   ├── <datalist>
+      │   │   └── <option>
+      │   └── <output>
+      ├── <table>
+      │   ├── <thead>
+      │   ├── <tbody>
+      │   ├── <tfoot>
+      │   └── <tr>
+      │       ├── <th>
+      │       └── <td>
+      ├── <audio>
+      ├── <video>
+      │   ├── <source>
+      │   └── <track>
+      ├── <img>
+      ├── <picture>
+      ├── <canvas>
+      ├── <iframe>
+      ├── <object>
+      ├── <embed>
+      ├── <script>
+      ├── <details>
+      │   └── <summary>
+      ├── <dialog>
+      ├── <slot>
+      ├── <template>
+      ├── <data>
+      ├── <progress>
+      ├── <meter>
+      └── <time>
+      ├── <bdi>
+      └── <bdo>
+      ├── <portal> (Experimental)
+      └── <fencedframe> (Experimental)
+
+
+
+
+```
+
+<br></br>
+
 
 # All common attributes for each HTML element
 
