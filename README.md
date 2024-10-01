@@ -16,6 +16,7 @@
 # Attributes values
 - [Global Attributes](#global-attributes)
 - [Tag Attributes with values](#tag-attributes)
+- [Tag wise events](#tag-events)
 
 
 ## Document Structure
@@ -532,4 +533,139 @@ Global Attributes
   ├── title: "description" (title for accessibility)
   └── sandbox: "allow-same-origin", "allow-scripts", "allow-forms", etc. (restricts iframe capabilities)
 
+```
+
+
+## TAG Events
+
+```html
+
+
+- HTML Element Events
+  ├── <a>
+  │    ├── onclick
+  │    ├── onmouseover
+  │    ├── onmouseout
+  │    ├── onfocus
+  │    ├── onblur
+  │    ├── onmouseenter
+  │    ├── onmouseleave
+  │    ├── oncontextmenu
+  │    └── ondrag
+  ├── <button>
+  │    ├── onclick
+  │    ├── onfocus
+  │    ├── onblur
+  │    ├── onmousedown
+  │    ├── onmouseup
+  │    ├── onmouseenter
+  │    ├── onmouseleave
+  │    └── oncontextmenu
+  ├── <form>
+  │    ├── onsubmit
+  │    ├── onreset
+  │    ├── onchange
+  │    ├── onfocus
+  │    ├── onblur
+  │    └── oninput
+  ├── <input>
+  │    ├── onchange
+  │    ├── oninput
+  │    ├── onfocus
+  │    ├── onblur
+  │    ├── onkeydown
+  │    ├── onkeyup
+  │    ├── onkeypress
+  │    ├── onmousedown
+  │    └── onmouseup
+  ├── <select>
+  │    ├── onchange
+  │    ├── onfocus
+  │    ├── onblur
+  │    ├── onmousedown
+  │    └── onmouseup
+  ├── <textarea>
+  │    ├── onchange
+  │    ├── oninput
+  │    ├── onfocus
+  │    ├── onblur
+  │    ├── onkeydown
+  │    ├── onkeyup
+  │    ├── onkeypress
+  │    ├── onmousedown
+  │    └── onmouseup
+  ├── <img>
+  │    ├── onerror
+  │    ├── onclick
+  │    ├── onload
+  │    ├── onmouseover
+  │    └── onmouseout
+  ├── <video>, <audio>
+  │    ├── onplay
+  │    ├── onpause
+  │    ├── onended
+  │    ├── ontimeupdate
+  │    ├── onloadstart
+  │    ├── onloadeddata
+  │    ├── onloadedmetadata
+  │    └── onerror
+  ├── <div>, <span>
+  │    ├── onclick
+  │    ├── onmouseover
+  │    ├── onmouseout
+  │    ├── onfocus
+  │    ├── onblur
+  │    ├── ondrag
+  │    ├── ondragstart
+  │    ├── ondragend
+  │    ├── ondragover
+  │    └── ondrop
+  ├── <table>
+  │    ├── onclick
+  │    ├── onmouseover
+  │    ├── onmouseout
+  │    └── oncontextmenu
+  ├── <body>
+  │    ├── onload
+  │    ├── onunload
+  │    ├── onfocus
+  │    ├── onblur
+  │    └── onresize
+  ├── <window>
+  │    ├── onresize
+  │    ├── onscroll
+  │    ├── onunload
+  │    ├── onload
+  │    ├── onfocus
+  │    └── onblur
+  ├── <document>
+  │    ├── onDOMContentLoaded
+  │    ├── onload
+  │    ├── onvisibilitychange
+  │    ├── onkeydown
+  │    ├── onkeyup
+  │    ├── onkeypress
+  │    └── onerror
+  ├── <dl>
+  │    ├── onclick
+  │    ├── onmouseover
+  │    ├── onmouseout
+  │    ├── onfocus
+  │    └── onblur
+  ├── <dt>
+  │    ├── onclick
+  │    ├── onmouseover
+  │    └── onmouseout
+  ├── <dd>
+  │    ├── onclick
+  │    ├── onmouseover
+  │    └── onmouseout
+  ├── <colgroup>
+  │    ├── onclick
+  │    ├── onmouseover
+  │    └── onmouseout
+  └── <col>
+       ├── onclick
+       ├── onmouseover
+       └── onmouseout
 ```
