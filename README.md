@@ -13,10 +13,9 @@
 - [Interactive Elements](#interactive-elements)
 - [Meta Elements](#meta-elements)
 
-# Attributes
-- [Element Attributes](#all-common-attributes-for-each-html-element)
+# Attributes values
 - [Global Attributes](#global-attributes)
-- [Attributes with values](#html-attributes-along-with-their-possible-value-types)
+- [Tag Attributes with values](#tag-attributes)
 
 
 ## Document Structure
@@ -158,450 +157,17 @@
 
 <br></br>
 
-```html
 
-<html>
-  ├── <head>
-  │   ├── <title>
-  │   ├── <meta>
-  │   ├── <link>
-  │   └── <style>
-  └── <body>
-      ├── <header>
-      ├── <nav>
-      ├── <main>
-      ├── <footer>
-      ├── <section>
-      ├── <article>
-      ├── <aside>
-      ├── <blockquote>
-      ├── <pre>
-      ├── <code>
-      ├── <samp>
-      ├── <var>
-      ├── <small>
-      ├── <strong>
-      ├── <em>
-      ├── <i>
-      ├── <b>
-      ├── <u>
-      ├── <mark>
-      ├── <s>
-      ├── <del>
-      └── <ins>
-      ├── <ul>
-      │   └── <li>
-      ├── <ol>
-      │   └── <li>
-      ├── <dl>
-      │   ├── <dt>
-      │   └── <dd>
-      ├── <a>
-      ├── <menu>
-      ├── <form>
-      │   ├── <input>
-      │   ├── <textarea>
-      │   ├── <button>
-      │   ├── <select>
-      │   │   └── <option>
-      │   ├── <fieldset>
-      │   ├── <label>
-      │   ├── <datalist>
-      │   │   └── <option>
-      │   └── <output>
-      ├── <table>
-      │   ├── <thead>
-      │   ├── <tbody>
-      │   ├── <tfoot>
-      │   └── <tr>
-      │       ├── <th>
-      │       └── <td>
-      ├── <audio>
-      ├── <video>
-      │   ├── <source>
-      │   └── <track>
-      ├── <img>
-      ├── <picture>
-      ├── <canvas>
-      ├── <iframe>
-      ├── <object>
-      ├── <embed>
-      ├── <script>
-      ├── <details>
-      │   └── <summary>
-      ├── <dialog>
-      ├── <slot>
-      ├── <template>
-      ├── <data>
-      ├── <progress>
-      ├── <meter>
-      └── <time>
-      ├── <bdi>
-      └── <bdo>
-      ├── <portal> (Experimental)
-      └── <fencedframe> (Experimental)
 
 
 
 
-```
 
-<br></br>
 
 
-# All common attributes for each HTML element
 
 
 
-```html
-
-<html>
-   ├── lang
-   ├── xmlns
-
-<head>
-   ├── profile
-
-<body>
-   ├── alink
-   ├── background
-   ├── bgcolor
-   ├── link
-   ├── text
-   ├── vlink
-
-<title>
-   ├── None
-
-<meta>
-   ├── charset
-   ├── content
-   ├── http-equiv
-   ├── name
-
-<link>
-   ├── href
-   ├── rel
-   ├── type
-   ├── media
-   ├── hreflang
-   ├── sizes
-
-<style>
-   ├── media
-   ├── scoped
-   ├── type
-
-<script>
-   ├── async
-   ├── defer
-   ├── src
-   ├── type
-
-<h1> to <h6>
-   ├── align
-
-<p>
-   ├── align
-
-<br>
-   ├── None
-
-<hr>
-   ├── align
-   ├── noshade
-   ├── size
-   ├── width
-
-<pre>
-   ├── None
-
-<blockquote>
-   ├── cite
-
-<code>
-   ├── None
-
-<b>, <i>, <u>, <small>, <strong>, <em>, <mark>, <sup>, <sub>, <abbr>, <cite>, <q>, <span>
-   ├── None
-
-<div>
-   ├── align
-
-<section>, <article>, <aside>, <header>, <footer>, <main>, <nav>, <figure>, <figcaption>
-   ├── None
-
-<ul>, <ol>
-   ├── type
-   ├── compact
-
-<li>
-   ├── value
-
-<dl>, <dt>, <dd>
-   ├── None
-
-<table>
-   ├── align
-   ├── bgcolor
-   ├── border
-   ├── cellpadding
-   ├── cellspacing
-   ├── frame
-   ├── rules
-   ├── summary
-   ├── width
-
-<tr>
-   ├── align
-   ├── bgcolor
-   ├── valign
-
-<td>, <th>
-   ├── abbr
-   ├── align
-   ├── axis
-   ├── bgcolor
-   ├── colspan
-   ├── headers
-   ├── rowspan
-   ├── valign
-   ├── width
-
-<thead>, <tbody>, <tfoot>
-   ├── align
-   ├── bgcolor
-   ├── valign
-
-<caption>
-   ├── align
-
-<colgroup>, <col>
-   ├── align
-   ├── span
-   ├── width
-   ├── valign
-
-<form>
-   ├── accept-charset
-   ├── action
-   ├── autocomplete
-   ├── enctype
-   ├── method
-   ├── name
-   ├── novalidate
-   ├── target
-
-<input>
-   ├── accept
-   ├── alt
-   ├── autocomplete
-   ├── autofocus
-   ├── checked
-   ├── dirname
-   ├── disabled
-   ├── form
-   ├── formaction
-   ├── formenctype
-   ├── formmethod
-   ├── formnovalidate
-   ├── formtarget
-   ├── height
-   ├── list
-   ├── max
-   ├── maxlength
-   ├── min
-   ├── minlength
-   ├── multiple
-   ├── name
-   ├── pattern
-   ├── placeholder
-   ├── readonly
-   ├── required
-   ├── size
-   ├── src
-   ├── step
-   ├── type
-   ├── value
-   ├── width
-
-<textarea>
-   ├── autocomplete
-   ├── autofocus
-   ├── cols
-   ├── dirname
-   ├── disabled
-   ├── form
-   ├── maxlength
-   ├── minlength
-   ├── name
-   ├── placeholder
-   ├── readonly
-   ├── required
-   ├── rows
-   ├── wrap
-
-<button>
-   ├── autofocus
-   ├── disabled
-   ├── form
-   ├── formaction
-   ├── formenctype
-   ├── formmethod
-   ├── formnovalidate
-   ├── formtarget
-   ├── name
-   ├── type
-   ├── value
-
-<select>
-   ├── autocomplete
-   ├── autofocus
-   ├── disabled
-   ├── form
-   ├── multiple
-   ├── name
-   ├── required
-   ├── size
-
-<option>
-   ├── disabled
-   ├── label
-   ├── selected
-   ├── value
-
-<optgroup>
-   ├── disabled
-   ├── label
-
-<label>
-   ├── for
-   ├── form
-
-<fieldset>
-   ├── disabled
-   ├── form
-   ├── name
-
-<legend>
-   ├── None
-
-<datalist>
-   ├── None
-
-<output>
-   ├── for
-   ├── form
-   ├── name
-
-<img>
-   ├── alt
-   ├── crossorigin
-   ├── height
-   ├── ismap
-   ├── loading
-   ├── referrerpolicy
-   ├── sizes
-   ├── src
-   ├── srcset
-   ├── width
-   ├── usemap
-
-<audio>
-   ├── autoplay
-   ├── controls
-   ├── crossorigin
-   ├── loop
-   ├── muted
-   ├── preload
-   ├── src
-
-<video>
-   ├── autoplay
-   ├── controls
-   ├── crossorigin
-   ├── height
-   ├── loop
-   ├── muted
-   ├── playsinline
-   ├── poster
-   ├── preload
-   ├── src
-   ├── width
-
-<source>
-   ├── src
-   ├── type
-   ├── media
-   ├── sizes
-   ├── srcset
-
-<track>
-   ├── default
-   ├── kind
-   ├── label
-   ├── src
-   ├── srclang
-
-<embed>
-   ├── height
-   ├── src
-   ├── type
-   ├── width
-
-<iframe>
-   ├── allow
-   ├── allowfullscreen
-   ├── height
-   ├── loading
-   ├── name
-   ├── referrerpolicy
-   ├── sandbox
-   ├── src
-   ├── srcdoc
-   ├── width
-
-<a>
-   ├── download
-   ├── href
-   ├── hreflang
-   ├── ping
-   ├── referrerpolicy
-   ├── rel
-   ├── target
-   ├── type
-
-<canvas>
-   ├── height
-   ├── width
-
-<noscript>
-   ├── None
-
-<details>
-   ├── open
-
-<summary>
-   ├── None
-
-<dialog>
-   ├── open
-
-
-
-
-
-```
-
-
-
-
-
-
-
-
-
-<br></br>
 
 
 
@@ -649,204 +215,321 @@ Global Attributes
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # TAG Attributes
 ```html
-<input>
-   ├── autofocus: Controls if the input automatically gets focus (true, false)
-   ├── checked: Controls if the input is preselected (true, false)
-   ├── disabled: Controls if the input is disabled (true, false)
-   ├── form: Associates the input with a form (form ID)
-   ├── formaction: URL to send form data to (URL)
-   ├── formenctype: Encoding type for form data (application/x-www-form-urlencoded, multipart/form-data, text/plain)
-   ├── formmethod: HTTP method for form submission (GET, POST)
-   ├── formnovalidate: Controls if the input should skip validation (true, false)
-   ├── formtarget: Specifies where to display the form response (_self, _blank, _top, _parent)
-   ├── max: Maximum value for the input (number)
-   ├── maxlength: Maximum number of characters (number)
-   ├── min: Minimum value for the input (number)
-   ├── minlength: Minimum number of characters (number)
-   ├── multiple: Allows multiple values (true, false)
-   ├── name: Name of the input (string)
-   ├── pattern: Regular expression pattern (regex)
-   ├── placeholder: Placeholder text (string)
-   ├── readonly: Controls if the input is read-only (true, false)
-   ├── required: Specifies if the input is required (true, false)
-   ├── size: Width of the input (number)
-   ├── src: URL of the image (URL)
-   ├── step: Step value for numeric inputs (number)
-   ├── type: Type of the input (text, password, checkbox, radio, etc.)
-   ├── value: Default value of the input (string)
-   ├── width: Width of the input (number)
 
-<select>
-   ├── autofocus: Controls if the select automatically gets focus (true, false)
-   ├── disabled: Controls if the select is disabled (true, false)
-   ├── form: Associates the select with a form (form ID)
-   ├── multiple: Allows multiple options to be selected (true, false)
-   ├── name: Name of the select (string)
-   ├── required: Specifies if the select is required (true, false)
-   ├── size: Number of visible options (number)
+<html>
+  ├── lang: "en", "fr", "es", etc.
+  └── xmlns: "http://www.w3.org/1999/xhtml"
 
-<option>
-   ├── disabled: Controls if the option is disabled (true, false)
-   ├── label: Label for the option (string)
-   ├── selected: Controls if the option is selected by default (true, false)
-   ├── value: Value of the option (string)
 
-<textarea>
-   ├── autofocus: Controls if the textarea automatically gets focus (true, false)
-   ├── cols: Number of visible columns (number)
-   ├── disabled: Controls if the textarea is disabled (true, false)
-   ├── form: Associates the textarea with a form (form ID)
-   ├── maxlength: Maximum number of characters (number)
-   ├── minlength: Minimum number of characters (number)
-   ├── name: Name of the textarea (string)
-   ├── placeholder: Placeholder text (string)
-   ├── readonly: Controls if the textarea is read-only (true, false)
-   ├── required: Specifies if the textarea is required (true, false)
-   ├── rows: Number of visible rows (number)
-   ├── wrap: Text wrapping mode (soft, hard)
 
-<button>
-   ├── autofocus: Controls if the button automatically gets focus (true, false)
-   ├── disabled: Controls if the button is disabled (true, false)
-   ├── form: Associates the button with a form (form ID)
-   ├── formaction: URL to send form data to (URL)
-   ├── formenctype: Encoding type for form data (application/x-www-form-urlencoded, multipart/form-data, text/plain)
-   ├── formmethod: HTTP method for form submission (GET, POST)
-   ├── formnovalidate: Controls if the button should skip validation (true, false)
-   ├── formtarget: Specifies where to display the form response (_self, _blank, _top, _parent)
-   ├── name: Name of the button (string)
-   ├── type: Type of the button (submit, reset, button)
-   ├── value: Value of the button (string)
+<head>
+  ├── <meta>
+  │    ├── charset: "UTF-8", "ISO-8859-1", etc. (character encoding)
+  │    ├── name: "description", "keywords", "author", "viewport", "robots", etc. (metadata name)
+  │    ├── content: "text" (content associated with the name)
+  │    ├── http-equiv: "refresh", "content-security-policy", "X-UA-Compatible" (HTTP header control)
+  │    └── viewport: "width=device-width, initial-scale=1.0" (controls layout on mobile browsers)
+  ├── <link>
+  │    ├── rel: "stylesheet", "icon", "preload", "preconnect", "alternate", "manifest", etc. (relationship to the document)
+  │    ├── href: "URL" (URL of the linked resource)
+  │    ├── type: "text/css", "image/png", etc. (MIME type of the linked resource)
+  │    ├── sizes: "size" (size for icons)
+  │    ├── media: "screen", "print", "all", etc. (media type for styles)
+  │    └── title: "text" (title of the linked resource)
+  ├── <style>
+  │    ├── type: "text/css" (MIME type)
+  │    ├── media: "screen", "print", etc. (media type for styles)
+  │    └── scoped: "" (applies styles only to the parent element)
+  ├── <base>
+  │    ├── href: "URL" (base URL for relative URLs)
+  │    └── target: "_self", "_blank", "_parent", "_top" (default target for all links)
+  └── <title>
+       └── None
 
-<fieldset>
-   ├── disabled: Controls if the fieldset is disabled (true, false)
-   ├── form: Associates the fieldset with a form (form ID)
-   ├── name: Name of the fieldset (string)
 
-<legend>
-   ├── None: Caption for the fieldset (string)
+<body>
+  ├── alink: "#FF0000" (deprecated)
+  ├── background: "URL" (deprecated)
+  ├── bgcolor: "#FFFFFF" (deprecated)
+  ├── link: "#0000FF" (deprecated)
+  ├── text: "#000000" (deprecated)
+  ├── vlink: "#800080" (deprecated)
+  ├── onload: "JavaScriptFunction()"
+  └── onunload: "JavaScriptFunction()"
 
-<label>
-   ├── for: Specifies which input the label is for (input ID)
-   ├── form: Associates the label with a form (form ID)
-   ├── name: Name of the label (string)
+<h1> to <h6>
+  └── align: "left", "center", "right", "justify" (deprecated)
 
-<datalist>
-   ├── None: List of predefined options (string)
+<p>
+  └── align: "left", "center", "right", "justify" (deprecated)
 
-<optgroup>
-   ├── label: Label for the group of options (string)
+<br>
+  └── None
 
-<progress>
-   ├── value: Current value of the progress (number)
-   ├── max: Maximum value of the progress (number)
+<hr>
+  ├── align: "left", "center", "right" (deprecated)
+  ├── noshade: "" (deprecated)
+  ├── size: "1" to "n"
+  └── width: "100%", "50%", etc.
 
-<meter>
-   ├── value: Current value of the meter (number)
-   ├── min: Minimum value of the meter (number)
-   ├── max: Maximum value of the meter (number)
-   ├── low: Low threshold value (number)
-   ├── high: High threshold value (number)
-   ├── optimum: Optimal value (number)
+<pre>
+  └── None
 
-<details>
-   ├── open: Specifies that the details are visible by default (true, false)
+<blockquote>
+  └── cite: "URL"
 
-<summary>
-   ├── None: Heading for the details (string)
+<code>
+  └── None
 
-<dialog>
-   ├── open: Specifies that the dialog is open (true, false)
+<b>, <i>, <u>, <small>, <strong>, <em>, <mark>, <sup>, <sub>, <abbr>, <cite>, <q>, <span>
+  └── None
+
+<div>
+  └── align: "left", "center", "right", "justify" (deprecated)
+
+<section>, <article>, <aside>, <header>, <footer>, <main>, <nav>, <figure>, <figcaption>
+  └── None
+
+
+# List and Definition Elements
+  ├── <ul>, <ol>
+  │    ├── type: "disc", "circle", "square" (for <ul>) or "1", "A", "a", "I", "i" (for <ol>; specifies the bullet or numbering style)
+  │    └── compact: "" (deprecated; suggests a more compact list)
+  ├── <li>
+  │    └── value: "number" (specifies the value of the list item for ordered lists)
+  └── <dl>, <dt>, <dd>
+
+
+
+# Table Elements
+  ├── <table>
+  │    ├── align: "left", "center", "right" (deprecated; alignment of the table)
+  │    ├── bgcolor: "#FFFFFF" (deprecated; background color of the table)
+  │    ├── border: "1" (width of the table border)
+  │    ├── cellpadding: "1" to "n" (space between cell walls and content)
+  │    ├── cellspacing: "1" to "n" (space between table cells)
+  │    ├── frame: "void", "above", "below", "hsides", "lhs", "rhs", "vsides", "box", "border" (which sides to render the border)
+  │    ├── rules: "none", "groups", "rows", "cols", "all" (rules for displaying borders)
+  │    ├── summary: "text" (summary of the table's content)
+  │    └── width: "100%", "50%", etc. (width of the table)
+  ├── <tr>
+  │    ├── align: "left", "center", "right" (alignment of the row)
+  │    ├── bgcolor: "#FFFFFF" (deprecated; background color of the row)
+  │    └── valign: "top", "middle", "bottom", "baseline" (vertical alignment of content)
+  ├── <td>, <th>
+  │    ├── abbr: "text" (abbreviated text for accessibility)
+  │    ├── align: "left", "center", "right" (alignment of the cell)
+  │    ├── axis: "text" (relationship of the cell to other headers)
+  │    ├── bgcolor: "#FFFFFF" (deprecated; background color of the cell)
+  │    ├── colspan: "1" to "n" (number of columns the cell should span)
+  │    ├── headers: "header_id" (IDs of associated headers)
+  │    ├── rowspan: "1" to "n" (number of rows the cell should span)
+  │    ├── valign: "top", "middle", "bottom", "baseline" (vertical alignment of content)
+  │    └── width: "100px", "50%" (width of the cell)
+  ├── <thead>, <tbody>, <tfoot>
+  │    ├── align: "left", "center", "right" (alignment of the section)
+  │    ├── bgcolor: "#FFFFFF" (deprecated; background color of the section)
+  │    └── valign: "top", "middle", "bottom", "baseline" (vertical alignment of content)
+  └── <colgroup>, <col>
+       ├── align: "left", "center", "right" (deprecated; alignment of the column)
+       ├── span: "number" (number of columns that this group or column should span)
+       └── width: "100px", "50%" (width of the column)
+
+
+
 
 <form>
-   ├── accept-charset: Character encoding for form submission (UTF-8, ISO-8859-1, etc.)
-   ├── action: URL to send the form data to (URL)
-   ├── autocomplete: Controls if the browser should autocomplete the form fields (on, off)
-   ├── enctype: Encoding type for form data (application/x-www-form-urlencoded, multipart/form-data, text/plain)
-   ├── method: HTTP method for form submission (GET, POST)
-   ├── name: Name of the form (string)
-   ├── novalidate: Controls if the form should skip validation (true, false)
-   ├── target: Specifies where to display the form response (_self, _blank, _top, _parent)
+  ├── <form>
+  │    ├── action: "URL" (URL to submit the form data)
+  │    ├── method: "GET", "POST" (HTTP method to use for form submission)
+  │    ├── enctype: "application/x-www-form-urlencoded", "multipart/form-data", "text/plain" (encoding type for form data)
+  │    ├── target: "_self", "_blank", "_parent", "_top" (where to display the response)
+  │    ├── novalidate: "" (disables form validation)
+  │    ├── accept-charset: "UTF-8" (character encodings for form submission)
+  │    └── autocomplete: "on", "off" (controls autocomplete feature)
+  ├── <input>
+  │    ├── type: "text", "password", "email", "number", "checkbox", "radio", "file", "hidden", "submit", "button", "url", "tel", "color", "date", "time", "range", etc. (input type)
+  │    ├── name: "name" (name of the input)
+  │    ├── value: "text" (default value of the input)
+  │    ├── placeholder: "text" (placeholder text)
+  │    ├── required: "" (makes input mandatory)
+  │    ├── disabled: "" (disables the input)
+  │    ├── readonly: "" (makes input read-only)
+  │    ├── minlength: "number" (minimum number of characters)
+  │    ├── maxlength: "number" (maximum number of characters)
+  │    ├── pattern: "regex" (regular expression for input validation)
+  │    ├── autocomplete: "on", "off" (autocomplete feature)
+  │    └── tabindex: "number" (tab order of the element)
+  ├── <textarea>
+  │    ├── name: "name" (name of the textarea)
+  │    ├── rows: "number" (number of visible text lines)
+  │    ├── cols: "number" (visible width in characters)
+  │    ├── placeholder: "text" (placeholder text)
+  │    ├── required: "" (makes textarea mandatory)
+  │    └── readonly: "" (makes textarea read-only)
+  ├── <select>
+  │    ├── name: "name" (name of the select element)
+  │    ├── multiple: "" (allows multiple selections)
+  │    ├── required: "" (makes select mandatory)
+  │    ├── size: "number" (number of visible options)
+  │    └── autocomplete: "on", "off" (autocomplete feature)
+  │       └── <option>
+  │            ├── value: "value" (value of the option)
+  │            ├── selected: "" (default selected option)
+  │            ├── disabled: "" (disables the option)
+  │            └── label: "text" (label for the option)
+  ├── <button>
+  │    ├── type: "submit", "reset", "button" (button type)
+  │    ├── name: "name" (name of the button)
+  │    ├── value: "text" (value sent with the form)
+  │    ├── disabled: "" (disables the button)
+  │    └── formaction: "URL" (URL for the button's action)
+  ├── <label>
+  │    ├── for: "id" (associates label with input)
+  │    └── None
+  ├── <fieldset>
+  │    ├── disabled: "" (disables all elements within the fieldset)
+  │    ├── form: "id" (associates with a form)
+  │    ├── name: "name" (name of the fieldset)
+  │    └── <legend>
+  │         └── None
+  ├── <datalist>
+  │    └── <option>
+  │         └── value: "text" (value for the datalist options)
+  ├── <progress>
+  │    ├── value: "number" (current value)
+  │    └── max: "number" (maximum value)
+  ├── <meter>
+  │    ├── value: "number" (current value)
+  │    ├── min: "number" (minimum value)
+  │    └── max: "number" (maximum value)
+  └── None
+
+
 
 <img>
-   ├── alt: Alternative text for the image (string)
-   ├── crossorigin: How the image should be fetched (anonymous, use-credentials)
-   ├── height: Height of the image (number)
-   ├── ismap: Specifies that the image is a server-side image map (true, false)
-   ├── longdesc: Link to a detailed description (URL)
-   ├── src: URL of the image (URL)
-   ├── usemap: Name of the image map (#map)
-   ├── width: Width of the image (number)
-
-<svg>
-   ├── height: Height of the SVG container (number)
-   ├── width: Width of the SVG container (number)
-   ├── viewBox: Position and dimension of the SVG viewport (string, e.g., "0 0 100 100")
-   ├── xmlns: XML namespace for SVG (URL)
-
-<canvas>
-   ├── height: Height of the canvas (number)
-   ├── width: Width of the canvas (number)
+  ├── src: "image-url" (path to the image)
+  ├── alt: "alternative text" (description of the image)
+  ├── width: "number" (width of the image in pixels)
+  ├── height: "number" (height of the image in pixels)
+  ├── loading: "lazy", "eager" (loading strategy)
+  └── usemap: "#map-name" (associates image with a <map> element)
 
 <video>
-   ├── controls: Controls if video controls should be displayed (true, false)
-   ├── crossorigin: How the video should be fetched (anonymous, use-credentials)
-   ├── height: Height of the video (number)
-   ├── loop: Controls if the video should loop (true, false)
-   ├── muted: Controls if the video should be muted (true, false)
-   ├── playsinline: Controls if the video should play inline on mobile devices (true, false)
-   ├── preload: How the video should be loaded (auto, metadata, none)
-   ├── src: URL of the video (URL)
-   ├── width: Width of the video (number)
+  ├── src: "video-url" (path to the video file)
+  ├── controls: "" (shows playback controls)
+  ├── autoplay: "" (plays video automatically)
+  ├── loop: "" (replays video when finished)
+  ├── muted: "" (starts video muted)
+  ├── playsinline: "" (plays video inline on mobile)
+  ├── poster: "image-url" (thumbnail image before playback)
+  ├── width: "number" (width of the video in pixels)
+  └── height: "number" (height of the video in pixels)
 
 <audio>
-   ├── controls: Controls if audio controls should be displayed (true, false)
-   ├── crossorigin: How the audio should be fetched (anonymous, use-credentials)
-   ├── loop: Controls if the audio should loop (true, false)
-   ├── muted: Controls if the audio should be muted (true, false)
-   ├── preload: How the audio should be loaded (auto, metadata, none)
-   ├── src: URL of the audio (URL)
+  ├── src: "audio-url" (path to the audio file)
+  ├── controls: "" (shows playback controls)
+  ├── autoplay: "" (plays audio automatically)
+  ├── loop: "" (replays audio when finished)
+  ├── muted: "" (starts audio muted)
+  ├── preload: "none", "metadata", "auto" (loading strategy)
+  └── volume: "number" (volume level from 0.0 to 1.0, not an attribute)
 
 <source>
-   ├── media: Media type for which the source is suitable (string, e.g., "screen and (min-width: 800px)")
-   ├── src: URL of the media source (URL)
-   ├── type: MIME type of the media source (string, e.g., "video/mp4")
+  ├── src: "media-url" (path to the media file)
+  ├── type: "audio/mpeg", "video/mp4", "image/jpeg", etc. (media type)
+  └── media: "media-query" (condition to apply the source)
 
 <track>
-   ├── default: Controls if the track should be the default (true, false)
-   ├── kind: Kind of track (subtitles, captions, descriptions, chapters, metadata)
-   ├── label: Label for the track (string)
-   ├── src: URL of the track file (URL)
-   ├── srclang: Language of the track (language code)
+  ├── src: "track-url" (path to the track file)
+  ├── kind: "subtitles", "captions", "descriptions", "chapters", "metadata" (type of track)
+  ├── srclang: "language-code" (language of the track)
+  ├── label: "track-label" (label for the track)
+  ├── default: "" (indicates the default track)
+  └── None
 
 <map>
-   ├── name: Name of the map (string)
+  └── name: "map-name" (identifier for the map)
 
 <area>
-   ├── alt: Alternative text for the area (string)
-   ├── coords: Coordinates of the clickable area (numbers)
-   ├── download: Specifies that the link should download a file (filename)
-   ├── href: URL of the linked resource (URL)
-   ├── media: Media type for which the area is suitable (string)
-   ├── ping: URL to send a ping to (URL)
-   ├── rel: Relationship between the current document and the linked resource (string)
-   ├── shape: Shape of the clickable area (rect, circle, poly)
-   ├── target: Where to display the linked resource (_self, _blank, _top, _parent)
+  ├── shape: "rect", "circle", "poly" (shape of the clickable area)
+  ├── coords: "coordinates" (coordinates for the shape)
+  ├── href: "URL" (destination URL)
+  ├── alt: "alternative text" (description of the area)
+  ├── target: "_self", "_blank", "_parent", "_top" (where to open the link)
+  └── rel: "nofollow", "noopener", "noreferrer" (relationship to the linked resource)
+
+<canvas>
+  ├── width: "number" (width of the canvas)
+  ├── height: "number" (height of the canvas)
+  └── None
+
+<svg>
+  └── None
 
 <iframe>
-   ├── allow: Features the iframe is allowed to use (string)
-   ├── allowfullscreen: Specifies that the iframe is allowed to enter fullscreen mode (true, false)
-   ├── frameborder: Whether the iframe should have a border (number)
-   ├── height: Height of the iframe (number)
-   ├── loading: When the iframe should be loaded (eager, lazy)
-   ├── marginheight: Top and bottom margins of the iframe (number)
-   ├── marginwidth: Left and right margins of the iframe (number)
-   ├── name: Name of the iframe (string)
-   ├── referrerpolicy: Referrer policy for the iframe (string)
-   ├── sandbox: Sandboxing rules for the iframe (string)
-   ├── src: URL of the iframe content (URL)
-   ├── srcdoc: HTML content of the iframe (string)
-   ├── width: Width of the iframe (number)
+  ├── src: "URL" (source of the iframe content)
+  ├── width: "number" (width of the iframe in pixels)
+  ├── height: "number" (height of the iframe in pixels)
+  ├── frameborder: "0" (border of the iframe, deprecated)
+  ├── allowfullscreen: "" (allows fullscreen mode)
+  ├── loading: "lazy", "eager" (loading strategy)
+  ├── title: "description" (title for accessibility)
+  └── sandbox: "allow-same-origin", "allow-scripts", "allow-forms", etc. (restricts iframe capabilities)
+
+<script>
+  ├── src: "script-url" (path to an external script file)
+  ├── async: "" (downloads script asynchronously)
+  ├── defer: "" (executes script after document parsing)
+  ├── type: "text/javascript", "module" (type of script)
+  ├── charset: "character-set" (character encoding)
+  └── None
+
+<noscript>
+  └── None
+
+<template>
+  └── None
+
+<canvas>
+  ├── width: "number" (width of the canvas)
+  ├── height: "number" (height of the canvas)
+  └── None
+
+<slot>
+  └── None
+
+<iframe>
+  ├── src: "URL" (source of the iframe content)
+  ├── width: "number" (width of the iframe in pixels)
+  ├── height: "number" (height of the iframe in pixels)
+  ├── frameborder: "0" (border of the iframe, deprecated)
+  ├── allowfullscreen: "" (allows fullscreen mode)
+  ├── loading: "lazy", "eager" (loading strategy)
+  ├── title: "description" (title for accessibility)
+  └── sandbox: "allow-same-origin", "allow-scripts", "allow-forms", etc. (restricts iframe capabilities)
+
 ```
