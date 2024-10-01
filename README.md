@@ -175,7 +175,7 @@
 
 ## Global Attributes
 
-```html
+```yaml
 Global Attributes
 ├── accesskey : Defines a keyboard shortcut to activate/focus an element.
 ├── autocapitalize : Controls the capitalization of text (none, sentences, words, characters).
@@ -237,7 +237,7 @@ Global Attributes
 
 
 # TAG Attributes
-```html
+```yaml
 
 <html>
   ├── lang: "en", "fr", "es", etc.
