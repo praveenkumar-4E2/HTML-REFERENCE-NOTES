@@ -361,6 +361,47 @@ Global Attributes
 
 
 
+- <a> (Anchor Tag Attributes)
+  ├── href: "URL" (specifies the link target)
+  ├── target: "_blank", "_self", "_parent", "_top", "framename"
+  │    ├── _blank: (opens the link in a new tab or window)
+  │    ├── _self: (opens the link in the same frame as it was clicked)
+  │    ├── _parent: (opens the link in the parent frame)
+  │    ├── _top: (opens the link in the full body of the window)
+  │    └── framename: (opens the link in a named frame)
+  ├── rel: "alternate", "author", "bookmark", "external", "help", "license", "nofollow", "noopener", "noreferrer", "prev", "next"
+  │    ├── alternate: (indicates an alternate version of the document)
+  │    ├── author: (links to the author of the document)
+  │    ├── bookmark: (permanent URL used for bookmarking)
+  │    ├── external: (indicates that the link is external)
+  │    ├── help: (links to a help document)
+  │    ├── license: (indicates a link to a copyright license)
+  │    ├── nofollow: (tells search engines not to follow the link)
+  │    ├── noopener: (prevents the new page from controlling the original page)
+  │    ├── noreferrer: (prevents sending referrer information)
+  │    ├── prev: (indicates the previous document in a series)
+  │    └── next: (indicates the next document in a series)
+  ├── download: "filename" (suggests a filename for downloading the file)
+  ├── hreflang: "language_code" (specifies the language of the linked document)
+  │    └── Examples: "en", "fr", "es", "de", "it", "jp" (English, French, Spanish, German, Italian, Japanese)
+  ├── type: "MIME_type" (specifies the media type of the linked document)
+  │    └── Examples: "text/html", "image/png", "application/pdf"
+  ├── ping: "URL" (specifies a space-separated list of URLs to notify when the link is clicked)
+  ├── referrerpolicy: "no-referrer", "no-referrer-when-downgrade", "origin", "origin-when-cross-origin", "same-origin", "strict-origin", "strict-origin-when-cross-origin", "unsafe-url"
+  │    ├── no-referrer: (no referrer information is sent)
+  │    ├── no-referrer-when-downgrade: (referrer is sent if the protocol is secure)
+  │    ├── origin: (sends only the origin of the document as referrer)
+  │    ├── origin-when-cross-origin: (sends full referrer for same-origin, origin only for cross-origin)
+  │    ├── same-origin: (sends referrer only for same-origin requests)
+  │    ├── strict-origin: (sends origin only if the protocol is secure)
+  │    ├── strict-origin-when-cross-origin: (sends origin for cross-origin if the protocol is secure)
+  │    └── unsafe-url: (sends full URL as referrer)
+  ├── name: "text" (specifies the name of the anchor for internal linking)
+  ├── id: "text" (specifies a unique id for the anchor element)
+  ├── title: "text" (specifies additional information about the link)
+  └── accesskey: "character" (specifies a shortcut key to activate/focus the link)
+
+
 
 <form>
   ├── <form>
